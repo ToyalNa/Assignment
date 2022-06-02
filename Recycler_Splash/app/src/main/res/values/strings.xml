@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Recycler_Splash</string>
+
+    <string-array name="name">
+        <item>Viettel</item>
+        <item>Vinaphone</item>
+        <item>Vietnamobie</item>
+        <item>Mobiphone</item>
+    </string-array>
+
+    <string-array name="phone">
+        <item>1800 8168</item>
+        <item>1800 1091</item>
+        <item>0922789789</item>
+        <item>9090</item>
+    </string-array>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/tV_comment"
+        android:hint="Nội dung commnent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/tV_repIntent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginRight="20dp"
+        android:gravity="bottom|right"/>
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Truyền dữ liệu" />
+
+    <EditText
+        android:id="@+id/tV_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Nhập số điện thoại"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Gọi điện" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Chuyển sang Camera" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtSearch"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:lines="1"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btTrinhduyet"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Chuyển sang trình duyệt" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Chuyển sang Gửi tin nhắn" />
+</LinearLayout>
